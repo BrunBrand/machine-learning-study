@@ -1,0 +1,28 @@
+# Python / Conda environments
+.venv/
+env/
+venv/
+.env/
+
+# Conda specific files
+.conda/
+conda-env/
+
+# Miniconda/Anaconda specific environment paths (adjust if your base install path varies)
+# If your environment is inside your main miniconda installation, you typically
+# don't put the entire miniconda path here unless it's a specific sub-folder.
+# The most common scenario is to ignore specific environment names if they
+# somehow end up in your project directory.
+# E.g., if your environment folder is directly in your project:
+my_ml_env/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Data (if not part of the repo)
+data/
+# etc.
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
